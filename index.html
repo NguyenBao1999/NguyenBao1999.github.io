@@ -1,85 +1,128 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nguyễn Bảo - IT Helpdesk</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nguyen Bao - IT Helpdesk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: 'Inter', sans-serif;
-      margin: 0; padding: 0;
-      background-color: #f4f6f8;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f4f8;
       color: #333;
+      line-height: 1.6;
     }
     header {
-      background-color: #2c3e50;
+      background-color: #004080;
       color: white;
-      padding: 2rem;
+      padding: 30px 20px;
       text-align: center;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 2.4rem;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 1.1rem;
+      opacity: 0.85;
     }
     main {
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
     }
     section {
-      margin-bottom: 2rem;
+      margin-bottom: 30px;
     }
     h2 {
-      color: #2c3e50;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 0.5rem;
+      border-bottom: 3px solid #004080;
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+      color: #004080;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
     }
     .contact a {
-      display: inline-block;
-      margin-right: 1rem;
+      color: #004080;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact a:hover {
+      text-decoration: underline;
     }
     footer {
       text-align: center;
-      padding: 1rem;
+      padding: 15px 10px;
       font-size: 0.9rem;
-      background: #ecf0f1;
+      color: #666;
+      margin-top: 40px;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      main {
+        margin: 20px 10px;
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 1.8rem;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Nguyễn Bảo</h1>
-    <p>IT Helpdesk | Hỗ trợ kỹ thuật & hạ tầng mạng</p>
+    <h1>Nguyen Bao</h1>
+    <p>IT Helpdesk | Technical Support & Network Infrastructure Management</p>
   </header>
+
   <main>
     <section>
-      <h2>Giới thiệu</h2>
-      <p>Tôi là một IT Helpdesk với kinh nghiệm hỗ trợ người dùng, xử lý sự cố phần mềm, phần cứng, mạng LAN/WAN, và quản lý thiết bị văn phòng.</p>
+      <h2>About Me</h2>
+      <p>I am an experienced IT Helpdesk professional supporting end-users, troubleshooting hardware and software issues, and managing internal networks effectively. Always ready to provide timely support and create a stable working environment.</p>
     </section>
 
     <section>
-      <h2>Kỹ năng</h2>
+      <h2>Skills</h2>
       <ul>
-        <li>Windows, Linux cơ bản</li>
-        <li>Active Directory, mạng nội bộ</li>
-        <li>Phần mềm văn phòng, remote support</li>
-        <li>Giao tiếp và xử lý tình huống</li>
+        <li>Support for Windows and basic Linux operating systems</li>
+        <li>Active Directory management and user groups</li>
+        <li>LAN/WAN network configuration and network devices support</li>
+        <li>Remote support, software and hardware troubleshooting</li>
+        <li>Good communication and problem-solving skills</li>
       </ul>
     </section>
 
     <section>
-      <h2>Kinh nghiệm</h2>
-      <p><strong>IT Helpdesk – Công ty ABC</strong><br>
-      - Hỗ trợ kỹ thuật cho 100+ người dùng<br>
-      - Xử lý sự cố mạng, máy in, email<br>
-      - Triển khai thiết bị mới, quản lý tài sản CNTT</p>
+      <h2>Work Experience</h2>
+      <p><strong>IT Helpdesk - ABC Company</strong><br />
+      - Provided technical support to over 100 users<br />
+      - Managed and maintained network systems and office devices<br />
+      - Quickly and efficiently handled email, computer, and software issues</p>
     </section>
 
     <section class="contact">
-      <h2>Liên hệ</h2>
+      <h2>Contact</h2>
       <p>Email: <a href="mailto:nguyenbao@example.com">nguyenbao@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/nguyenbao1999" target="_blank">nguyenbao1999</a></p>
+      <p>GitHub: <a href="https://github.com/nguyenbao1999" target="_blank" rel="noopener noreferrer">https://github.com/nguyenbao1999</a></p>
     </section>
   </main>
+
   <footer>
-    © 2025 Nguyễn Bảo. All rights reserved.
+    © 2025 Nguyen Bao. All rights reserved.
   </footer>
 </body>
 </html>
