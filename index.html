@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nguyen Le Hoang Bao - IT Helpdesk</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto', sans-serif;
       background-color: #f9f5e3;
       color: #3b2f2f;
       line-height: 1.7;
-      scroll-behavior: smooth;
     }
     header {
       background-color: #e6d4a3;
-      color: #3b2f2f;
       text-align: center;
       padding: 40px 20px;
-      border-bottom: 1px solid #d5c7a3;
-      animation: fadeIn 1.5s ease;
     }
     .avatar {
       width: 140px;
@@ -30,74 +26,43 @@
       object-fit: cover;
       border: 4px solid #fff3d5;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
-      transition: transform 0.3s ease;
-    }
-    .avatar:hover {
-      transform: scale(1.05);
     }
     header h1 {
-      margin: 10px 0 5px;
+      margin: 20px 0 5px;
       font-size: 2.4rem;
     }
     header p {
       font-size: 1.1rem;
-      opacity: 0.85;
     }
     main {
       max-width: 900px;
       margin: 40px auto;
       background-color: #fffdf6;
-      padding: 40px 30px;
+      padding: 40px;
       border-radius: 12px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-      animation: fadeInUp 1s ease;
-    }
-    section {
-      margin-bottom: 40px;
     }
     h2 {
       font-size: 1.5rem;
       color: #704f3a;
       border-bottom: 2px solid #c4b693;
       padding-bottom: 6px;
-      margin-bottom: 20px;
     }
-    ul {
-      padding-left: 20px;
-    }
-    ul li {
-      margin-bottom: 10px;
-    }
+    ul { padding-left: 20px; }
+    ul li { margin-bottom: 10px; }
     a {
       color: #8b5c3d;
       text-decoration: none;
-      transition: all 0.2s ease;
     }
     a:hover {
       text-decoration: underline;
-      color: #a3632c;
     }
     footer {
       text-align: center;
-      padding: 20px 10px;
+      padding: 20px;
       font-size: 0.9rem;
       color: #6f5f4f;
-      border-top: 1px solid #e6d8b5;
       background-color: #f5efe0;
-      margin-top: 50px;
-    }
-    @media (max-width: 600px) {
-      main { padding: 25px 15px; margin: 20px 10px; }
-      header h1 { font-size: 2rem; }
-    }
-    @keyframes fadeIn {
-      from { opacity: 0 }
-      to { opacity: 1 }
-    }
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
@@ -107,60 +72,51 @@
     <h1>Nguyen Le Hoang Bao</h1>
     <p>IT Helpdesk | Network Support | Software Testing</p>
   </header>
-
   <main>
     <section>
       <h2>Career Objective</h2>
-      <p>Dedicated to developing a career in Network System Administration and IT Support. Strong interest in real-world networking, troubleshooting, and pursuing certifications like CCNA and CCNP.</p>
+      <p>Seeking opportunities to grow in IT Helpdesk, Network Support and System Administration. Eager to pursue CCNA/CCNP certifications and apply practical networking skills.</p>
     </section>
-
     <section>
       <h2>Education</h2>
       <ul>
-        <li><strong>University of Foreign Languages & IT – HCMC</strong> – Information Technology (08/2017 - 05/2019)</li>
-        <li><strong>Ba Ria - Vung Tau University</strong> – Business English (06/2019 - 10/2023)</li>
+        <li><strong>University of Foreign Languages & IT – HCMC</strong> – Information Technology (2017 - 2019)</li>
+        <li><strong>Ba Ria - Vung Tau University</strong> – Business English (2019 - 2023)</li>
       </ul>
     </section>
-
     <section>
       <h2>Work Experience</h2>
-      <p><strong>Creative Labs Pte Ltd – Manual Software Tester</strong> (12/2023 - 05/2025)</p>
+      <h3>Creative Labs Pte Ltd – Manual Software Tester (12/2023 - 05/2025)</h3>
       <ul>
-        <li>Designed and executed test cases for software/firmware on Windows, Mac, iOS, Android</li>
-        <li>Collaborated with QA team to analyze network-related bugs (Wi-Fi, device connectivity)</li>
-        <li>Reported bugs via Mantis with logs, screenshots, and clear reproduction steps</li>
-        <li>Prepared and reviewed documentation with remote teams in English</li>
+        <li>Designed and executed test cases for multi-platform applications</li>
+        <li>Collaborated on debugging network-related bugs</li>
+        <li>Reported detailed issues using Mantis with logs/screenshots</li>
       </ul>
-      <p><strong>Freelancer at uTest – Tester</strong></p>
+      <h3>uTest – Freelance Tester</h3>
       <ul>
-        <li>Tested apps and software based on instructions and test cases</li>
-        <li>Validated behavior across Windows, macOS, Android, and iOS environments</li>
+        <li>Tested mobile and desktop apps under various OS environments</li>
+        <li>Submitted bug reports and completed test cases</li>
       </ul>
-      <p><strong>Dieu Phuc Technical Services Co. – Software Support Technician</strong></p>
+      <h3>Dieu Phuc Technical Services Co. – Software Support Technician</h3>
       <ul>
-        <li>Installed applications and guided users on system features</li>
-        <li>Configured Wi-Fi, assigned static IPs for customer devices</li>
-        <li>Diagnosed basic network issues: no internet, DNS failure, gateway unreachable</li>
-        <li>Used PowerShell for IP/gateway checks and internal ping tests</li>
-        <li>Provided technical consultation and software warranty evaluations</li>
+        <li>Installed and supported software/hardware for customers</li>
+        <li>Configured Wi-Fi and assigned static IPs for devices</li>
+        <li>Diagnosed network issues (DNS, IP conflict, gateway unreachable)</li>
+        <li>Used PowerShell for basic network troubleshooting</li>
       </ul>
     </section>
-
     <section>
       <h2>Skills</h2>
       <ul>
-        <li>IT Support, Network Troubleshooting, Software Testing</li>
-        <li>PowerShell scripting for basic network diagnostics</li>
-        <li>Proficient in Office tools, Mantis, Testrail</li>
-        <li>Good communication & English documentation skills</li>
+        <li>Technical Support, Network Troubleshooting, Manual Testing</li>
+        <li>PowerShell scripting, Wireshark, IP & DNS analysis</li>
+        <li>Tools: Office, Testrail, Mantis, GitHub</li>
       </ul>
     </section>
-
     <section>
-      <h2>Certification</h2>
+      <h2>Certifications</h2>
       <p><strong>Google IT Support Professional Certificate</strong> – <a href="https://coursera.org/verify/professional-cert/TKAQN9A1S032" target="_blank">Verify</a></p>
     </section>
-
     <section>
       <h2>Contact</h2>
       <p>📞 +84 369 357 941</p>
@@ -170,7 +126,6 @@
       <p>🔗 GitHub: <a href="https://github.com/nguyenbao1999" target="_blank">github.com/nguyenbao1999</a></p>
     </section>
   </main>
-
   <footer>
     © 2025 Nguyen Le Hoang Bao. All rights reserved.
   </footer>
